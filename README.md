@@ -16,4 +16,4 @@ I got as far as some basic collision-detection, circular bodies, and concave pol
 A high school level understanding of physics wasn't enough for all I wanted to do, and so I had to do research. 
 
 Other Note: I was having performance issues, when using double-values to store entity state information, e.g. coordinates, orientation.
-So, to improve performance, there is a separate set of classes that use int-values for that.
+So, to improve performance, there is a separate set of classes that use int-values for better speed.
