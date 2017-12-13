@@ -1,19 +1,8 @@
 # myPhysicsEngine
 2D physics engine
 
-The goal was to simulate physical 2D motion, with elastic collisions. It is still very incomplete. 
+I used the Java programming language to create my own Physics Engine, which is a software package which's aim is to simulate the motion of real-world physical objects in a virtual environment where all variables can be controlled. 
 
-Games oftentimes use code libraries to facilitate interactions between a game's characters/environment, like jumping and landing 
-onto a moving platform. 
+Though unfinished, my completed progress on the project allows for visual confirmation of the simulation of accelerated motion and elastic collisions of 2D rigid bodies.
 
-I was inspired by other projects Jelly Car and Box2D. I thought I could make my own. This project was the start of that,
-using my at-the-time knowlege of kenimatics. Eventually, I could make my own games, and other applications, that involve 2D motion.
-
-I also spent a lot of time rehtinking the "design", really intending this code to be a free, simple, 
-and easy to use/understand java alternative to the popular Box2D.
-
-I got as far as some basic collision-detection, circular bodies, and concave polygons. Even though it's incomplete, I learned a lot:
-A high school level understanding of physics wasn't enough for all I wanted to do, and so I had to do research. 
-
-Other Note: I was having performance issues, when using double-values to store entity state information, e.g. coordinates, orientation.
-So, to improve performance, there is a separate set of classes that use int-values for better speed.
+As a personal project, this was originally intended as an application of what I had learned test my understanding of kinematics and motion, from what I had gained from an early course in Physics. Much consideration was given to the Software Design and ease-of-use of the API, as I also had in mind for this project to be open-sourced, and perhaps be of use as a teaching tool.
